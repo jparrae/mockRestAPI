@@ -1,0 +1,140 @@
+{
+  "businessName": "Emision",
+  "requiereCedulaArmado" : "true",
+  "regimenFiscal" : "PM",
+  "complementarios": {
+    "agentName": null,
+    "agentKey": null,
+    "agentStatus": null,
+    "policyNumber": null,
+    "policyStatus": null,
+    "businessName": null,
+    "folio": "AG123",
+    "ot": "OT123456789",
+    "rfc": "MME920427EM3",
+    "razonSocial": "MetLife México S. A",
+    "calle": "Av. Insurgentes Sur 1647",
+    "colonia": "San José Insurgentes",
+    "mpio": "Benito Juárez",
+    "cp": "03900",
+    "edo": "CDMX",
+    "tipoAdmon": 2,
+    "ivaAplicar": "IVA16",
+    "gastosExpedicion": 2,
+    "formaPago": "2",
+    "tipoPago": "TDC",
+    "facturacionNivel": 1,
+    "cveAgente1": "A000001",
+    "comAgente1": 50,
+    "cveAgente2": "A000002",
+    "comAgente2": 35,
+    "cveAgente3": "A000003",
+    "comAgente3": 15,
+    "totalComision": 100,
+    "correoEnvio1": "adicional0001@hotmail.com",
+    "correoEnvio2": "adicional0002@gmail.com"
+  },
+  "subgrupos": [
+    "java.util.ArrayList",
+    [
+      {
+        "idSubgpo": "S1",
+        "sgOpTarifa": "Tarifa 1",
+        "sgRazSoc": "Raz soc 1",
+        "sgCalleNum": "Calle 1",
+        "sgCol": "Col 1",
+        "sgDelMpio": "Del 1",
+        "sgEdo": "CDMX",
+        "sgCp": "11111",
+        "sgRfc": "RFC111111ZZZ",
+        "sgNumCat": "Categoria 1",
+        "sgCat": "CAT111111111",
+        "sgFormaPago": "1"
+      },
+      {
+        "idSubgpo": "S2",
+        "sgOpTarifa": "Tarifa 2",
+        "sgRazSoc": "Raz soc 2",
+        "sgCalleNum": "Calle 2",
+        "sgCol": "Col 2",
+        "sgDelMpio": "Del 2",
+        "sgEdo": "CDMX 2",
+        "sgCp": "22222",
+        "sgRfc": "RFC222222ZZZ",
+        "sgNumCat": "Categoria 2",
+        "sgCat": "CAT222222222",
+        "sgFormaPago": "2"
+      },
+      {
+        "idSubgpo": "S3",
+        "sgOpTarifa": "Tarifa 3",
+        "sgRazSoc": "Raz soc 3",
+        "sgCalleNum": "Calle 3",
+        "sgCol": "Col 3",
+        "sgDelMpio": "Del 3",
+        "sgEdo": "CDMX 3",
+        "sgCp": "33333333",
+        "sgRfc": "RFC3333333ZZZ",
+        "sgNumCat": "Categoria 3",
+        "sgCat": "CAT33333333",
+        "sgFormaPago": "3"
+      }
+    ]
+  ],
+  "cedula": {
+	"txtNumPoliza" : "0987",
+	"txtContratante" : "Contratante fulanito",
+	"txtTotalCert" : "9",
+	"txtTotalCred" : "8",
+	"docsEnsambleCert" : "1",
+	"docsEnsambleTar" : "0",
+	"docsEnsambleOtros" : "1",
+	"docsEnsambleOtrosDesc" : "Actas",
+	"txtPolizasAplicanImpresion" : "Verificar posibles valores",
+	"insumoPortaPolizaVG2005" : "SI",
+	"insumoFlyerPG2210" : "NO",
+	"insumoCertVertical" : "SI",
+	"insumoSobreEsquelaCM1004" : "NO",
+	"insumoSgmmIG2023" : "SI",
+	"insumoJanel2x4" : "NO",
+	"insumoOtros" : "SI",
+	"insumoOtrosDesc" : "POLIZAS ANTERIORES",
+	"docsAdicionalesFoll" : "1",
+	"docsAdicionalesTrip" : "0",
+	"docsAdicionalesOtros" : "1",
+	"docsAdicionalesOtrosDesc" : "ACTAS",
+	"txtInfoOrdenEtiqueta" : "2",
+	"infoOrdenEtiquetaDesc1" : "ORDEN ALTERNO 1",
+	"infoOrdenEtiquetaDesc2" : "ORDEN ALTERNO 2",
+	"especificacionSobre" : "CERRADO",
+	"especEmpaqueN1" : "espec N1",
+	"especEmpaqueN2" : "espec N2",
+	"especEmpaqueN3" : "espec N3",
+	"especEmpaqueN4" : "espec N4",
+	"layoutRequerimientoEmpaque" : "Instrucciones de empaque",
+	"mismaDireccionEnvio" : "NO",
+	"envioPersonaRecibe" : "JUAN PEREZ",
+	"envioCalleNum" : "Av. Insurgentes Sur 90233",
+	"envioColonia" : "La florida",
+	"envioMpio" : "Coyoacan",
+	"envioEdo" : "CDMX",
+	"envioCP" : "12345"
+  },
+  "documentos": [
+    "java.util.ArrayList",
+    [
+      {
+        "idDocto": "1",
+        "idFileNet": "1111"
+      },
+      {
+        "idDocto": "2",
+        "idFileNet": "2222"
+      },
+      {
+        "idDocto": "3",
+        "idFileNet": "3333"
+      }
+    ]
+  ]
+}
